@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Read(//Users/miri/.nvm/versions/**)",
+      "Bash(export PATH=\"$HOME/.nvm/versions/node/$\\(ls ~/.nvm/versions/node/)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/miri/Library/pnpm/**)",
+      "Read(//opt/**)",
+      "Read(//Users/miri/**)",
+      "Bash(export PATH=\"$PATH:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/opt/node/bin\")",
+      "Bash(brew list:*)",
+      "Bash(cp:*)",
+      "Bash(ln -s ../next/dist/bin/next /Users/miri/projects/st3me_website/node_modules/.bin/next)",
+      "Bash(gh auth:*)",
+      "Bash(brew install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh api:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
