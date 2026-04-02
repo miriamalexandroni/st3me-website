@@ -62,7 +62,7 @@ export const PROJECTS = [
   {
     title: "Cursuri de limba română pentru imigranți",
     description:
-      "Cursuri de limbă română pentru imigranți vorbitori de engleză și franceză",
+      "Cursuri de limba română pentru imigranți vorbitori de engleză și franceză",
     status: "În desfășurare",
   },
   {
