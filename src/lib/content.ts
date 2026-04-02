@@ -60,9 +60,9 @@ export const PROJECTS = [
     status: "În desfășurare",
   },
   {
-    title: "Program de Educație Biblică",
+    title: "Cursuri de limba română pentru imigranți",
     description:
-      "Cursuri de studiu biblic pentru toate vârstele, de la copii la seniori, desfășurate în cadrul bisericii.",
+      "Cursuri de limbă română pentru imigranți vorbitori de engleză și franceză",
     status: "În desfășurare",
   },
   {
@@ -74,7 +74,7 @@ export const PROJECTS = [
 ];
 
 export const FOOTER = {
-  address: "Str. Exemplu nr. 1, Oraș, România",
+  address: "Str. Banatul nr. 5, Timișoara, România",
   phone: "+40 700 000 000",
   email: "contact@sfantatreime.ro",
   socialLinks: [
