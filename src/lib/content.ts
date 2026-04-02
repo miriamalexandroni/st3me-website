@@ -1,4 +1,4 @@
-export const CHURCH_NAME = "Biserica Baptista Sfânta Treime";
+export const CHURCH_NAME = "Biserica Baptistă Sfânta Treime";
 export const CHURCH_TAGLINE =
   "O comunitate întemeiată pe credință, speranță și iubire";
 
