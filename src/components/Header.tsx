@@ -30,6 +30,7 @@ function LanguageDropdown() {
         aria-haspopup="listbox"
         aria-expanded={open}
       >
+        <span>{current.flag}</span>
         {current.label}
         {/* Chevron */}
         <svg
@@ -50,12 +51,13 @@ function LanguageDropdown() {
               key={l.code}
               href={l.href}
               onClick={() => setOpen(false)}
-              className={`block px-3 py-2 font-body text-xs font-semibold transition-colors duration-150
+              className={`flex items-center gap-2 px-3 py-2 font-body text-xs font-semibold transition-colors duration-150
                           ${l.code === locale
                             ? "text-amber-gold bg-burgundy"
                             : "text-cream opacity-70 hover:opacity-100 hover:bg-burgundy"
                           }`}
             >
+              <span>{l.flag}</span>
               {l.label}
             </a>
           ))}
