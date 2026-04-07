@@ -2,7 +2,6 @@ export const CHURCH_NAME = "Sfânta Treime";
 
 export const NAV_LINKS = [
   { key: "viziune", href: "#viziune" },
-  { key: "program", href: "#program" },
   { key: "proiecte", href: "#proiecte" },
   { key: "predici", href: "#predici" },
   { key: "contact", href: "#contact" },
