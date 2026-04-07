@@ -10,7 +10,7 @@ export default async function Projects() {
       : "bg-cream-warm text-brown-light border border-cream-border";
 
   return (
-    <section id="proiecte" className="bg-cream py-20 px-4">
+    <section id="proiecte" className="bg-cream-warm py-20 px-4">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-burgundy mb-4">
@@ -23,7 +23,7 @@ export default async function Projects() {
           {PROJECTS.map((project) => (
             <article
               key={project.key}
-              className="bg-cream-warm border border-cream-border rounded-sm p-6
+              className="bg-cream border border-cream-border rounded-sm p-6
                          flex flex-col gap-4
                          hover:border-amber-gold hover:shadow-md transition-all duration-300"
             >

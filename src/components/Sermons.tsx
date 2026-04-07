@@ -5,7 +5,7 @@ export default async function Sermons() {
   const t = await getTranslations("sermons");
 
   return (
-    <section id="predici" className="bg-cream-warm py-20 px-4">
+    <section id="predici" className="bg-cream py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-burgundy mb-4">

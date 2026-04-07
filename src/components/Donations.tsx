@@ -5,7 +5,7 @@ export default async function Donations() {
   const t = await getTranslations("donations");
 
   return (
-    <section id="donatii" className="bg-cream py-20 px-4">
+    <section id="donatii" className="bg-cream-warm py-20 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">
@@ -22,7 +22,7 @@ export default async function Donations() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
           {/* Bank transfer */}
-          <div className="bg-cream-warm border border-cream-border rounded-sm p-8">
+          <div className="bg-cream border border-cream-border rounded-sm p-8">
             <h3 className="font-heading text-xl font-semibold text-burgundy mb-4">
               {t("bankTitle")}
             </h3>
