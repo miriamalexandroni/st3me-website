@@ -23,10 +23,10 @@ export default async function Vision() {
               key={key}
               className="bg-cream-warm border border-cream-border rounded-sm p-6
                          hover:border-amber-muted hover:shadow-sm
-                         transition-all duration-300 text-center"
+                         transition-all duration-300 text-left"
             >
               {/* Numbered circle */}
-              <div className="w-12 h-12 rounded-full border-2 border-amber-gold flex items-center justify-center mx-auto mb-4">
+              <div className="w-12 h-12 rounded-full border-2 border-amber-gold flex items-center justify-center mb-4">
                 <span className="font-heading text-lg font-semibold text-amber-gold leading-none translate-y-px">
                   {index + 1}
                 </span>
@@ -34,7 +34,7 @@ export default async function Vision() {
               <h3 className="font-heading text-xl font-semibold text-burgundy mb-2">
                 {t(`values.${key}.title` as Parameters<typeof t>[0])}
               </h3>
-              <div className="w-8 h-px bg-amber-gold mx-auto mb-3" />
+              <div className="w-8 h-px bg-amber-gold mb-3" />
               <p className="font-body text-brown-light text-sm leading-relaxed">
                 {t(`values.${key}.description` as Parameters<typeof t>[0])}
               </p>
