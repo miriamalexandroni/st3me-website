@@ -1,4 +1,4 @@
-export const CHURCH_NAME = "Biserica baptista Sfânta Treime";
+export const CHURCH_NAME = "Sfânta Treime";
 
 export const NAV_LINKS = [
   { key: "viziune", href: "#viziune" },
