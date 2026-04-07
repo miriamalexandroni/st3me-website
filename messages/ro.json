@@ -32,21 +32,6 @@
       }
     }
   },
-  "meeting": {
-    "title": "Program Săptămânal",
-    "note": "Toate serviciile au loc la sediul bisericii. Vizitatorii sunt bineveniți.",
-    "days": {
-      "sunday": "Duminică",
-      "wednesday": "Miercuri",
-      "friday": "Vineri"
-    },
-    "events": {
-      "sundayMorning": "Serviciu Divin Principal",
-      "sundayEvening": "Studiu Biblic",
-      "wednesday": "Întâlnire de Rugăciune",
-      "friday": "Grup de Tineri"
-    }
-  },
   "projects": {
     "title": "Proiecte Actuale",
     "status": {
@@ -55,22 +40,22 @@
     },
     "items": {
       "social": {
-        "title": "Centrul de Ajutor Social",
+        "title": "Proiect 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
-        "title": "Cursuri de limbă română pentru imigranți",
+        "title": "Proiect 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
-        "title": "Renovarea Sălii de Întruniri",
+        "title": "Proiect 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Predici",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "subtitle": "Ascultă mesajele noastre pe Spotify."
   },
   "donations": {
     "title": "Donații",

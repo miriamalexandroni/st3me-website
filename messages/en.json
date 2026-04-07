@@ -32,21 +32,6 @@
       }
     }
   },
-  "meeting": {
-    "title": "Weekly Schedule",
-    "note": "All services take place at the church building. Visitors are welcome.",
-    "days": {
-      "sunday": "Sunday",
-      "wednesday": "Wednesday",
-      "friday": "Friday"
-    },
-    "events": {
-      "sundayMorning": "Main Sunday Service",
-      "sundayEvening": "Bible Study",
-      "wednesday": "Prayer Meeting",
-      "friday": "Youth Group"
-    }
-  },
   "projects": {
     "title": "Current Projects",
     "status": {
@@ -55,22 +40,22 @@
     },
     "items": {
       "social": {
-        "title": "Social Aid Center",
+        "title": "Project 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
-        "title": "Romanian Language Courses for Immigrants",
+        "title": "Project 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
-        "title": "Meeting Hall Renovation",
+        "title": "Project 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Sermons",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "subtitle": "Listen to our messages on Spotify."
   },
   "donations": {
     "title": "Donations",

@@ -32,21 +32,6 @@
       }
     }
   },
-  "meeting": {
-    "title": "Programme Hebdomadaire",
-    "note": "Tous les services ont lieu au siège de l'église. Les visiteurs sont les bienvenus.",
-    "days": {
-      "sunday": "Dimanche",
-      "wednesday": "Mercredi",
-      "friday": "Vendredi"
-    },
-    "events": {
-      "sundayMorning": "Service Divin Principal",
-      "sundayEvening": "Étude Biblique",
-      "wednesday": "Réunion de Prière",
-      "friday": "Groupe de Jeunes"
-    }
-  },
   "projects": {
     "title": "Projets Actuels",
     "status": {
@@ -55,22 +40,22 @@
     },
     "items": {
       "social": {
-        "title": "Centre d'Aide Sociale",
+        "title": "Projet 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
-        "title": "Cours de langue roumaine pour immigrants",
+        "title": "Projet 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
-        "title": "Rénovation de la Salle de Réunion",
+        "title": "Projet 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Prédications",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "subtitle": "Écoutez nos messages sur Spotify."
   },
   "donations": {
     "title": "Dons",
