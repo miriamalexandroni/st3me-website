@@ -1,8 +1,69 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Logo from "./Logo";
 import { CHURCH_NAME, NAV_LINKS, LOCALES } from "@/lib/content";
+
+function LanguageDropdown() {
+  const [open, setOpen] = useState(false);
+  const locale = useLocale();
+  const ref = useRef<HTMLDivElement>(null);
+
+  const current = LOCALES.find((l) => l.code === locale) ?? LOCALES[0];
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-1.5 font-body text-xs font-semibold text-cream opacity-80
+                   hover:opacity-100 hover:text-amber-light transition-all duration-200 px-2 py-1"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+      >
+        {current.label}
+        {/* Chevron */}
+        <svg
+          className={`w-3 h-3 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2.5}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {open && (
+        <div className="absolute right-0 mt-1 w-24 bg-burgundy-dark border border-burgundy-light rounded-sm shadow-lg z-50">
+          {LOCALES.map((l) => (
+            <a
+              key={l.code}
+              href={l.href}
+              onClick={() => setOpen(false)}
+              className={`block px-3 py-2 font-body text-xs font-semibold transition-colors duration-150
+                          ${l.code === locale
+                            ? "text-amber-gold bg-burgundy"
+                            : "text-cream opacity-70 hover:opacity-100 hover:bg-burgundy"
+                          }`}
+            >
+              {l.label}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,14 +74,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-burgundy shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Brand */}
-        <a href="#" className="flex items-center gap-3">
+        <a href={`/${locale}`} className="flex items-center gap-3">
           <Logo size={40} />
           <span className="font-heading text-xl font-semibold text-amber-gold tracking-wide">
             {CHURCH_NAME}
           </span>
         </a>
 
-        {/* Desktop nav + language switcher */}
+        {/* Desktop nav + language dropdown */}
         <div className="hidden md:flex items-center gap-6">
           <nav className="flex items-center gap-6">
             {NAV_LINKS.map((link) => (
@@ -34,21 +95,8 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* Language switcher */}
-          <div className="flex items-center gap-1 border-l border-burgundy-light pl-6">
-            {LOCALES.map((l) => (
-              <a
-                key={l.code}
-                href={l.href}
-                className={`font-body text-xs font-semibold px-2 py-1 rounded-sm transition-colors duration-200 ${
-                  locale === l.code
-                    ? "bg-amber-gold text-brown"
-                    : "text-cream opacity-60 hover:opacity-100"
-                }`}
-              >
-                {l.label}
-              </a>
-            ))}
+          <div className="border-l border-burgundy-light pl-4">
+            <LanguageDropdown />
           </div>
         </div>
 
@@ -77,21 +125,9 @@ export default function Header() {
               {t(link.key as Parameters<typeof t>[0])}
             </a>
           ))}
-          {/* Mobile language switcher */}
-          <div className="flex items-center gap-2 pt-4">
-            {LOCALES.map((l) => (
-              <a
-                key={l.code}
-                href={l.href}
-                className={`font-body text-xs font-semibold px-2 py-1 rounded-sm transition-colors duration-200 ${
-                  locale === l.code
-                    ? "bg-amber-gold text-brown"
-                    : "text-cream opacity-60 hover:opacity-100"
-                }`}
-              >
-                {l.label}
-              </a>
-            ))}
+          {/* Mobile language dropdown */}
+          <div className="pt-4">
+            <LanguageDropdown />
           </div>
         </nav>
       )}
