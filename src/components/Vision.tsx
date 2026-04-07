@@ -18,14 +18,19 @@ export default async function Vision() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {CORE_VALUE_ICONS.map(({ key, icon }) => (
+          {CORE_VALUE_ICONS.map(({ key }, index) => (
             <div
               key={key}
               className="bg-cream-warm border border-cream-border rounded-sm p-6
                          hover:border-amber-muted hover:shadow-sm
                          transition-all duration-300 text-center"
             >
-              <div className="text-3xl mb-3">{icon}</div>
+              {/* Numbered circle */}
+              <div className="w-12 h-12 rounded-full border-2 border-amber-gold flex items-center justify-center mx-auto mb-4">
+                <span className="font-heading text-lg font-semibold text-amber-gold">
+                  {index + 1}
+                </span>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-burgundy mb-2">
                 {t(`values.${key}.title` as Parameters<typeof t>[0])}
               </h3>
