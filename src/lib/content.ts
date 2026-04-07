@@ -43,7 +43,7 @@ export const SPOTIFY_EMBED_URL =
   "https://open.spotify.com/embed/show/7of9kvXYbQqvTSzLXi64Gi?utm_source=generator";
 
 export const LOCALES = [
-  { code: "ro", label: "RO" },
-  { code: "en", label: "EN" },
-  { code: "fr", label: "FR" },
+  { code: "ro", label: "RO", href: "/" },
+  { code: "en", label: "EN", href: "/en" },
+  { code: "fr", label: "FR", href: "/fr" },
 ];

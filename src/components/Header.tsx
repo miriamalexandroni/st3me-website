@@ -39,7 +39,7 @@ export default function Header() {
             {LOCALES.map((l) => (
               <a
                 key={l.code}
-                href={`/${l.code}`}
+                href={l.href}
                 className={`font-body text-xs font-semibold px-2 py-1 rounded-sm transition-colors duration-200 ${
                   locale === l.code
                     ? "bg-amber-gold text-brown"
@@ -82,7 +82,7 @@ export default function Header() {
             {LOCALES.map((l) => (
               <a
                 key={l.code}
-                href={`/${l.code}`}
+                href={l.href}
                 className={`font-body text-xs font-semibold px-2 py-1 rounded-sm transition-colors duration-200 ${
                   locale === l.code
                     ? "bg-amber-gold text-brown"
