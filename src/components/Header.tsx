@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Logo from "./Logo";
-import { CHURCH_NAME, NAV_LINKS, LOCALES } from "@/lib/content";
+import { NAV_LINKS, LOCALES } from "@/lib/content";
 
 function LanguageDropdown() {
   const [open, setOpen] = useState(false);
@@ -76,11 +76,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-burgundy shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Brand */}
-        <a href={`/${locale}`} className="flex items-center gap-3">
+        <a href={`/${locale}`} className="flex items-center">
           <Logo size={40} />
-          <span className="font-heading text-xl font-semibold text-amber-gold tracking-wide">
-            {CHURCH_NAME}
-          </span>
         </a>
 
         {/* Desktop nav + language dropdown */}
