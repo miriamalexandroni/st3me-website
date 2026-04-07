@@ -24,11 +24,7 @@ export default async function Hero() {
         </span>
       </h1>
 
-      <div className="w-24 h-px bg-amber-gold mx-auto mb-6" />
-
-      <p className="font-body text-cream-warm text-lg md:text-xl max-w-xl mb-10 opacity-90 leading-relaxed">
-        {t("tagline")}
-      </p>
+      <div className="w-24 h-px bg-amber-gold mx-auto mb-10" />
 
       <a
         href="#viziune"

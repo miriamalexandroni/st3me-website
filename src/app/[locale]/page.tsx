@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import InfoBar from "@/components/InfoBar";
 import Hero from "@/components/Hero";
 import Vision from "@/components/Vision";
 import Projects from "@/components/Projects";
@@ -10,6 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <InfoBar />
       <main>
         <Hero />
         <Vision />
