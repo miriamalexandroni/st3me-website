@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "viziune": "Vision",
+    "program": "Programme",
+    "proiecte": "Projets",
+    "predici": "Prédications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Une communauté fondée sur la foi, l'espérance et l'amour",
+    "cta": "Découvrez notre communauté"
+  },
+  "vision": {
+    "title": "Notre Vision",
+    "statement": "Nous sommes une communauté de croyants qui cherchent à vivre les valeurs de l'Évangile chaque jour — par la prière, le service et l'amour du prochain.",
+    "values": {
+      "faith": {
+        "title": "Foi",
+        "description": "Nous croyons en un Dieu vivant qui agit dans les cœurs et les vies des personnes par le Saint-Esprit."
+      },
+      "word": {
+        "title": "La Parole de Dieu",
+        "description": "La Bible reste le fondement de notre vie de foi, la source de sagesse et de guidance."
+      },
+      "community": {
+        "title": "Communauté",
+        "description": "Nous sommes une famille spirituelle qui se soutient mutuellement dans la joie et dans la souffrance."
+      },
+      "service": {
+        "title": "Service",
+        "description": "Nous croyons que chaque personne a un don à offrir et que le service est une expression de l'amour."
+      }
+    }
+  },
+  "meeting": {
+    "title": "Programme Hebdomadaire",
+    "note": "Tous les services ont lieu au siège de l'église. Les visiteurs sont les bienvenus.",
+    "days": {
+      "sunday": "Dimanche",
+      "wednesday": "Mercredi",
+      "friday": "Vendredi"
+    },
+    "events": {
+      "sundayMorning": "Service Divin Principal",
+      "sundayEvening": "Étude Biblique",
+      "wednesday": "Réunion de Prière",
+      "friday": "Groupe de Jeunes"
+    }
+  },
+  "projects": {
+    "title": "Projets Actuels",
+    "status": {
+      "ongoing": "En cours",
+      "planned": "En planification"
+    },
+    "items": {
+      "social": {
+        "title": "Centre d'Aide Sociale",
+        "description": "Nous distribuons des colis alimentaires et des vêtements aux familles dans le besoin de la communauté chaque mois."
+      },
+      "romanian": {
+        "title": "Cours de langue roumaine pour immigrants",
+        "description": "Cours de langue roumaine pour les immigrants anglophones et francophones."
+      },
+      "renovation": {
+        "title": "Rénovation de la Salle de Réunion",
+        "description": "Nous modernisons les espaces de réunion de l'église pour créer un environnement plus accueillant et accessible."
+      }
+    }
+  },
+  "sermons": {
+    "title": "Prédications",
+    "subtitle": "Écoutez nos messages sur Spotify."
+  },
+  "footer": {
+    "tagline": "Une communauté de croyants en Roumanie.",
+    "contact": "Contact",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "madeWith": "Réalisé avec amour."
+  }
+}

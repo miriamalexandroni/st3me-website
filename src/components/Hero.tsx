@@ -1,7 +1,10 @@
+import { getTranslations } from "next-intl/server";
 import Logo from "./Logo";
-import { CHURCH_NAME, CHURCH_TAGLINE, HERO_CTA } from "@/lib/content";
+import { CHURCH_NAME } from "@/lib/content";
 
-export default function Hero() {
+export default async function Hero() {
+  const t = await getTranslations("hero");
+
   return (
     <section
       id="acasa"
@@ -17,7 +20,7 @@ export default function Hero() {
       <div className="w-24 h-px bg-amber-gold mx-auto mb-6" />
 
       <p className="font-body text-cream-warm text-lg md:text-xl max-w-xl mb-10 opacity-90 leading-relaxed">
-        {CHURCH_TAGLINE}
+        {t("tagline")}
       </p>
 
       <a
@@ -26,10 +29,9 @@ export default function Hero() {
                    bg-amber-gold text-brown px-8 py-3 rounded-sm
                    hover:bg-amber-light transition-colors duration-300"
       >
-        {HERO_CTA}
+        {t("cta")}
       </a>
 
-      {/* Scroll hint */}
       <div className="absolute bottom-10 flex flex-col items-center gap-2 text-cream opacity-30">
         <span className="text-xs uppercase tracking-widest font-body">Scroll</span>
         <div className="w-px h-8 bg-cream" />

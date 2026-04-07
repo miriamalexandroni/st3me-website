@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "viziune": "Vision",
+    "program": "Schedule",
+    "proiecte": "Projects",
+    "predici": "Sermons",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "A community founded on faith, hope, and love",
+    "cta": "Discover our community"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "statement": "We are a community of believers who seek to live the values of the Gospel every day — through prayer, service, and love for our neighbors.",
+    "values": {
+      "faith": {
+        "title": "Faith",
+        "description": "We believe in a living God who works in the hearts and lives of people through the Holy Spirit."
+      },
+      "word": {
+        "title": "The Word of God",
+        "description": "The Bible remains the foundation of our faith life, the source of wisdom and guidance."
+      },
+      "community": {
+        "title": "Community",
+        "description": "We are a spiritual family that supports one another in joy and in suffering."
+      },
+      "service": {
+        "title": "Service",
+        "description": "We believe that every person has a gift to offer and that service is an expression of love."
+      }
+    }
+  },
+  "meeting": {
+    "title": "Weekly Schedule",
+    "note": "All services take place at the church building. Visitors are welcome.",
+    "days": {
+      "sunday": "Sunday",
+      "wednesday": "Wednesday",
+      "friday": "Friday"
+    },
+    "events": {
+      "sundayMorning": "Main Sunday Service",
+      "sundayEvening": "Bible Study",
+      "wednesday": "Prayer Meeting",
+      "friday": "Youth Group"
+    }
+  },
+  "projects": {
+    "title": "Current Projects",
+    "status": {
+      "ongoing": "Ongoing",
+      "planned": "In planning"
+    },
+    "items": {
+      "social": {
+        "title": "Social Aid Center",
+        "description": "We distribute food packages and clothing to needy families in the community every month."
+      },
+      "romanian": {
+        "title": "Romanian Language Courses for Immigrants",
+        "description": "Romanian language courses for immigrant speakers of English and French."
+      },
+      "renovation": {
+        "title": "Meeting Hall Renovation",
+        "description": "We are modernizing the church's meeting spaces to create a more welcoming and accessible environment."
+      }
+    }
+  },
+  "sermons": {
+    "title": "Sermons",
+    "subtitle": "Listen to our messages on Spotify."
+  },
+  "footer": {
+    "tagline": "A community of believers in Romania.",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with love."
+  }
+}

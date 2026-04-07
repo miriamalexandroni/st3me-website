@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "viziune": "Viziune",
+    "program": "Program",
+    "proiecte": "Proiecte",
+    "predici": "Predici",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "O comunitate întemeiată pe credință, speranță și iubire",
+    "cta": "Descoperă comunitatea noastră"
+  },
+  "vision": {
+    "title": "Viziunea Noastră",
+    "statement": "Suntem o comunitate de credincioși care doresc să trăiască valorile Evangheliei în fiecare zi — prin rugăciune, slujire și dragoste față de aproapele.",
+    "values": {
+      "faith": {
+        "title": "Credință",
+        "description": "Credem într-un Dumnezeu viu, care lucrează în inimile și viețile oamenilor prin Duhul Sfânt."
+      },
+      "word": {
+        "title": "Cuvântul lui Dumnezeu",
+        "description": "Biblia rămâne fundația vieții noastre de credință, sursa înțelepciunii și a călăuzirii."
+      },
+      "community": {
+        "title": "Comunitate",
+        "description": "Suntem o familie spirituală care se sprijină reciproc în bucurie și în suferință."
+      },
+      "service": {
+        "title": "Slujire",
+        "description": "Credem că fiecare persoană are un dar de oferit și că slujirea este o expresie a iubirii."
+      }
+    }
+  },
+  "meeting": {
+    "title": "Program Săptămânal",
+    "note": "Toate serviciile au loc la sediul bisericii. Vizitatorii sunt bineveniți.",
+    "days": {
+      "sunday": "Duminică",
+      "wednesday": "Miercuri",
+      "friday": "Vineri"
+    },
+    "events": {
+      "sundayMorning": "Serviciu Divin Principal",
+      "sundayEvening": "Studiu Biblic",
+      "wednesday": "Întâlnire de Rugăciune",
+      "friday": "Grup de Tineri"
+    }
+  },
+  "projects": {
+    "title": "Proiecte Actuale",
+    "status": {
+      "ongoing": "În desfășurare",
+      "planned": "În planificare"
+    },
+    "items": {
+      "social": {
+        "title": "Centrul de Ajutor Social",
+        "description": "Distribuim pachete alimentare și îmbrăcăminte familiilor nevoiașe din comunitate în fiecare lună."
+      },
+      "romanian": {
+        "title": "Cursuri de limbă română pentru imigranți",
+        "description": "Cursuri de limbă română pentru imigranți vorbitori de engleză și franceză."
+      },
+      "renovation": {
+        "title": "Renovarea Sălii de Întruniri",
+        "description": "Modernizăm spațiile de întâlnire ale bisericii pentru a crea un mediu mai primitor și accesibil."
+      }
+    }
+  },
+  "sermons": {
+    "title": "Predici",
+    "subtitle": "Ascultă mesajele noastre pe Spotify."
+  },
+  "footer": {
+    "tagline": "O comunitate de credincioși din România.",
+    "contact": "Contact",
+    "follow": "Urmărește-ne",
+    "rights": "Toate drepturile rezervate.",
+    "madeWith": "Realizat cu dragoste."
+  }
+}

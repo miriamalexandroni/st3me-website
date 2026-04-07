@@ -1,76 +1,31 @@
-export const CHURCH_NAME = "Biserica Baptistă Sfânta Treime";
-export const CHURCH_TAGLINE =
-  "O comunitate întemeiată pe credință, speranță și iubire";
+export const CHURCH_NAME = "Sfânta Treime";
 
 export const NAV_LINKS = [
-  { label: "Viziune", href: "#viziune" },
-  { label: "Program", href: "#program" },
-  { label: "Proiecte", href: "#proiecte" },
-  { label: "Predici", href: "#predici" },
-  { label: "Contact", href: "#contact" },
+  { key: "viziune", href: "#viziune" },
+  { key: "program", href: "#program" },
+  { key: "proiecte", href: "#proiecte" },
+  { key: "predici", href: "#predici" },
+  { key: "contact", href: "#contact" },
 ];
 
-export const HERO_CTA = "Descoperă comunitatea noastră";
-
-export const VISION = {
-  title: "Viziunea Noastră",
-  statement:
-    "Suntem o comunitate de credincioși care doresc să trăiască valorile Evangheliei în fiecare zi — prin rugăciune, slujire și dragoste față de aproapele.",
-};
-
-export const CORE_VALUES = [
-  {
-    icon: "✝",
-    title: "Credință",
-    description:
-      "Credem într-un Dumnezeu viu, care lucrează în inimile și viețile oamenilor prin Duhul Sfânt.",
-  },
-  {
-    icon: "📖",
-    title: "Cuvântul lui Dumnezeu",
-    description:
-      "Biblia rămâne fundația vieții noastre de credință, sursa înțelepciunii și a călăuzirii.",
-  },
-  {
-    icon: "🕊️",
-    title: "Comunitate",
-    description:
-      "Suntem o familie spirituală care se sprijină reciproc în bucurie și în suferință.",
-  },
-  {
-    icon: "🌿",
-    title: "Slujire",
-    description:
-      "Credem că fiecare persoană are un dar de oferit și că slujirea este o expresie a iubirii.",
-  },
+export const CORE_VALUE_ICONS = [
+  { key: "faith", icon: "✝" },
+  { key: "word", icon: "📖" },
+  { key: "community", icon: "🕊️" },
+  { key: "service", icon: "🌿" },
 ];
 
 export const MEETING_HOURS = [
-  { day: "Duminică", time: "10:00 – 12:00", event: "Serviciu Divin Principal" },
-  { day: "Duminică", time: "18:00 – 19:30", event: "Studiu Biblic" },
-  { day: "Miercuri", time: "19:00 – 20:30", event: "Întâlnire de Rugăciune" },
-  { day: "Vineri", time: "19:00 – 21:00", event: "Grup de Tineri" },
+  { dayKey: "sunday", time: "10:00 – 12:00", eventKey: "sundayMorning" },
+  { dayKey: "sunday", time: "18:00 – 19:30", eventKey: "sundayEvening" },
+  { dayKey: "wednesday", time: "19:00 – 20:30", eventKey: "wednesday" },
+  { dayKey: "friday", time: "19:00 – 21:00", eventKey: "friday" },
 ];
 
 export const PROJECTS = [
-  {
-    title: "Centrul de Ajutor Social",
-    description:
-      "Distribuim pachete alimentare și îmbrăcăminte familiilor nevoiașe din comunitate în fiecare lună.",
-    status: "În desfășurare",
-  },
-  {
-    title: "Cursuri de limba română pentru imigranți",
-    description:
-      "Cursuri de limba română pentru imigranți vorbitori de engleză și franceză",
-    status: "În desfășurare",
-  },
-  {
-    title: "Renovarea Sălii de Întruniri",
-    description:
-      "Modernizăm spațiile de întâlnire ale bisericii pentru a crea un mediu mai primitor și accesibil.",
-    status: "În planificare",
-  },
+  { key: "social", statusKey: "ongoing" },
+  { key: "romanian", statusKey: "ongoing" },
+  { key: "renovation", statusKey: "planned" },
 ];
 
 export const FOOTER = {
@@ -86,3 +41,9 @@ export const FOOTER = {
 
 export const SPOTIFY_EMBED_URL =
   "https://open.spotify.com/embed/show/7of9kvXYbQqvTSzLXi64Gi?utm_source=generator";
+
+export const LOCALES = [
+  { code: "ro", label: "RO" },
+  { code: "en", label: "EN" },
+  { code: "fr", label: "FR" },
+];
