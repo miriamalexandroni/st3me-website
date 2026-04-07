@@ -74,16 +74,16 @@
   },
   "donations": {
     "title": "Dons",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "subtitle": "Soutenez l'œuvre de l'église par votre contribution. Chaque don aide la communauté à grandir et à servir.",
     "bankTitle": "Virement Bancaire",
     "beneficiaryLabel": "Bénéficiaire",
     "bankLabel": "Banque",
     "ibanLabel": "IBAN",
     "currencyLabel": "Devise",
     "cardTitle": "Don par Carte",
-    "cardSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "cardSubtitle": "Rapide et sécurisé, directement depuis votre navigateur.",
     "cardButton": "Faire un don",
-    "cardNote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquip."
+    "cardNote": "Vous serez redirigé vers une plateforme de paiement sécurisée."
   },
   "footer": {
     "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

@@ -74,16 +74,16 @@
   },
   "donations": {
     "title": "Donații",
-    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "subtitle": "Susține lucrarea bisericii prin contribuția ta. Fiecare donație ajută comunitatea să crească și să servească.",
     "bankTitle": "Transfer Bancar",
     "beneficiaryLabel": "Beneficiar",
     "bankLabel": "Bancă",
     "ibanLabel": "IBAN",
     "currencyLabel": "Monedă",
     "cardTitle": "Donație cu Cardul",
-    "cardSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "cardSubtitle": "Rapid și sigur, direct din browser.",
     "cardButton": "Donează acum",
-    "cardNote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquip."
+    "cardNote": "Vei fi redirecționat către o platformă de plată securizată."
   },
   "footer": {
     "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
