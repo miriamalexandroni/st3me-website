@@ -27,7 +27,7 @@ export default async function Vision() {
             >
               {/* Numbered circle */}
               <div className="w-12 h-12 rounded-full border-2 border-amber-gold flex items-center justify-center mx-auto mb-4">
-                <span className="font-heading text-lg font-semibold text-amber-gold">
+                <span className="font-heading text-lg font-semibold text-amber-gold leading-none translate-y-px">
                   {index + 1}
                 </span>
               </div>
