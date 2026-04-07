@@ -12,23 +12,23 @@
   },
   "vision": {
     "title": "Viziunea Noastră",
-    "statement": "Suntem o comunitate de credincioși care doresc să trăiască valorile Evangheliei în fiecare zi — prin rugăciune, slujire și dragoste față de aproapele.",
+    "statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "values": {
       "faith": {
         "title": "Credință",
-        "description": "Credem într-un Dumnezeu viu, care lucrează în inimile și viețile oamenilor prin Duhul Sfânt."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       "word": {
         "title": "Cuvântul lui Dumnezeu",
-        "description": "Biblia rămâne fundația vieții noastre de credință, sursa înțelepciunii și a călăuzirii."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "community": {
         "title": "Comunitate",
-        "description": "Suntem o familie spirituală care se sprijină reciproc în bucurie și în suferință."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse."
       },
       "service": {
         "title": "Slujire",
-        "description": "Credem că fiecare persoană are un dar de oferit și că slujirea este o expresie a iubirii."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident sunt in culpa."
       }
     }
   },
@@ -56,37 +56,37 @@
     "items": {
       "social": {
         "title": "Centrul de Ajutor Social",
-        "description": "Distribuim pachete alimentare și îmbrăcăminte familiilor nevoiașe din comunitate în fiecare lună."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
         "title": "Cursuri de limbă română pentru imigranți",
-        "description": "Cursuri de limbă română pentru imigranți vorbitori de engleză și franceză."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
         "title": "Renovarea Sălii de Întruniri",
-        "description": "Modernizăm spațiile de întâlnire ale bisericii pentru a crea un mediu mai primitor și accesibil."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Predici",
-    "subtitle": "Ascultă mesajele noastre pe Spotify."
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   "donations": {
     "title": "Donații",
-    "subtitle": "Susține lucrarea bisericii prin contribuția ta. Fiecare donație ajută comunitatea să crească și să servească.",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "bankTitle": "Transfer Bancar",
     "beneficiaryLabel": "Beneficiar",
     "bankLabel": "Bancă",
     "ibanLabel": "IBAN",
     "currencyLabel": "Monedă",
     "cardTitle": "Donație cu Cardul",
-    "cardSubtitle": "Rapid și sigur, direct din browser.",
+    "cardSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "cardButton": "Donează acum",
-    "cardNote": "Vei fi redirecționat către o platformă de plată securizată."
+    "cardNote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquip."
   },
   "footer": {
-    "tagline": "O comunitate de credincioși din România.",
+    "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "contact": "Contact",
     "follow": "Urmărește-ne",
     "rights": "Toate drepturile rezervate.",

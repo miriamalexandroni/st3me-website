@@ -12,23 +12,23 @@
   },
   "vision": {
     "title": "Our Vision",
-    "statement": "We are a community of believers who seek to live the values of the Gospel every day — through prayer, service, and love for our neighbors.",
+    "statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "values": {
       "faith": {
         "title": "Faith",
-        "description": "We believe in a living God who works in the hearts and lives of people through the Holy Spirit."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       "word": {
         "title": "The Word of God",
-        "description": "The Bible remains the foundation of our faith life, the source of wisdom and guidance."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "community": {
         "title": "Community",
-        "description": "We are a spiritual family that supports one another in joy and in suffering."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse."
       },
       "service": {
         "title": "Service",
-        "description": "We believe that every person has a gift to offer and that service is an expression of love."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident sunt in culpa."
       }
     }
   },
@@ -56,37 +56,37 @@
     "items": {
       "social": {
         "title": "Social Aid Center",
-        "description": "We distribute food packages and clothing to needy families in the community every month."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
         "title": "Romanian Language Courses for Immigrants",
-        "description": "Romanian language courses for immigrant speakers of English and French."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
         "title": "Meeting Hall Renovation",
-        "description": "We are modernizing the church's meeting spaces to create a more welcoming and accessible environment."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Sermons",
-    "subtitle": "Listen to our messages on Spotify."
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   "donations": {
     "title": "Donations",
-    "subtitle": "Support the church's work through your contribution. Every donation helps the community grow and serve.",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "bankTitle": "Bank Transfer",
     "beneficiaryLabel": "Beneficiary",
     "bankLabel": "Bank",
     "ibanLabel": "IBAN",
     "currencyLabel": "Currency",
     "cardTitle": "Card Donation",
-    "cardSubtitle": "Fast and secure, directly from your browser.",
+    "cardSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "cardButton": "Donate now",
-    "cardNote": "You will be redirected to a secure payment platform."
+    "cardNote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquip."
   },
   "footer": {
-    "tagline": "A community of believers in Romania.",
+    "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "contact": "Contact",
     "follow": "Follow us",
     "rights": "All rights reserved.",

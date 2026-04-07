@@ -12,23 +12,23 @@
   },
   "vision": {
     "title": "Notre Vision",
-    "statement": "Nous sommes une communauté de croyants qui cherchent à vivre les valeurs de l'Évangile chaque jour — par la prière, le service et l'amour du prochain.",
+    "statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "values": {
       "faith": {
         "title": "Foi",
-        "description": "Nous croyons en un Dieu vivant qui agit dans les cœurs et les vies des personnes par le Saint-Esprit."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       },
       "word": {
         "title": "La Parole de Dieu",
-        "description": "La Bible reste le fondement de notre vie de foi, la source de sagesse et de guidance."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "community": {
         "title": "Communauté",
-        "description": "Nous sommes une famille spirituelle qui se soutient mutuellement dans la joie et dans la souffrance."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse."
       },
       "service": {
         "title": "Service",
-        "description": "Nous croyons que chaque personne a un don à offrir et que le service est une expression de l'amour."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident sunt in culpa."
       }
     }
   },
@@ -56,37 +56,37 @@
     "items": {
       "social": {
         "title": "Centre d'Aide Sociale",
-        "description": "Nous distribuons des colis alimentaires et des vêtements aux familles dans le besoin de la communauté chaque mois."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
       },
       "romanian": {
         "title": "Cours de langue roumaine pour immigrants",
-        "description": "Cours de langue roumaine pour les immigrants anglophones et francophones."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
       },
       "renovation": {
         "title": "Rénovation de la Salle de Réunion",
-        "description": "Nous modernisons les espaces de réunion de l'église pour créer un environnement plus accueillant et accessible."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       }
     }
   },
   "sermons": {
     "title": "Prédications",
-    "subtitle": "Écoutez nos messages sur Spotify."
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   "donations": {
     "title": "Dons",
-    "subtitle": "Soutenez l'œuvre de l'église par votre contribution. Chaque don aide la communauté à grandir et à servir.",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "bankTitle": "Virement Bancaire",
     "beneficiaryLabel": "Bénéficiaire",
     "bankLabel": "Banque",
     "ibanLabel": "IBAN",
     "currencyLabel": "Devise",
     "cardTitle": "Don par Carte",
-    "cardSubtitle": "Rapide et sécurisé, directement depuis votre navigateur.",
+    "cardSubtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "cardButton": "Faire un don",
-    "cardNote": "Vous serez redirigé vers une plateforme de paiement sécurisée."
+    "cardNote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquip."
   },
   "footer": {
-    "tagline": "Une communauté de croyants en Roumanie.",
+    "tagline": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "contact": "Contact",
     "follow": "Suivez-nous",
     "rights": "Tous droits réservés.",
