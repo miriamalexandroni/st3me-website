@@ -1,9 +1,9 @@
 {
   "nav": {
     "viziune": "Vision",
-    "program": "Schedule",
     "proiecte": "Projects",
     "predici": "Sermons",
+    "donatii": "Donate",
     "contact": "Contact"
   },
   "hero": {
@@ -71,6 +71,19 @@
   "sermons": {
     "title": "Sermons",
     "subtitle": "Listen to our messages on Spotify."
+  },
+  "donations": {
+    "title": "Donations",
+    "subtitle": "Support the church's work through your contribution. Every donation helps the community grow and serve.",
+    "bankTitle": "Bank Transfer",
+    "beneficiaryLabel": "Beneficiary",
+    "bankLabel": "Bank",
+    "ibanLabel": "IBAN",
+    "currencyLabel": "Currency",
+    "cardTitle": "Card Donation",
+    "cardSubtitle": "Fast and secure, directly from your browser.",
+    "cardButton": "Donate now",
+    "cardNote": "You will be redirected to a secure payment platform."
   },
   "footer": {
     "tagline": "A community of believers in Romania.",

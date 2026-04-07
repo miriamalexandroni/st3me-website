@@ -1,9 +1,9 @@
 {
   "nav": {
     "viziune": "Vision",
-    "program": "Programme",
     "proiecte": "Projets",
     "predici": "Prédications",
+    "donatii": "Faire un don",
     "contact": "Contact"
   },
   "hero": {
@@ -71,6 +71,19 @@
   "sermons": {
     "title": "Prédications",
     "subtitle": "Écoutez nos messages sur Spotify."
+  },
+  "donations": {
+    "title": "Dons",
+    "subtitle": "Soutenez l'œuvre de l'église par votre contribution. Chaque don aide la communauté à grandir et à servir.",
+    "bankTitle": "Virement Bancaire",
+    "beneficiaryLabel": "Bénéficiaire",
+    "bankLabel": "Banque",
+    "ibanLabel": "IBAN",
+    "currencyLabel": "Devise",
+    "cardTitle": "Don par Carte",
+    "cardSubtitle": "Rapide et sécurisé, directement depuis votre navigateur.",
+    "cardButton": "Faire un don",
+    "cardNote": "Vous serez redirigé vers une plateforme de paiement sécurisée."
   },
   "footer": {
     "tagline": "Une communauté de croyants en Roumanie.",

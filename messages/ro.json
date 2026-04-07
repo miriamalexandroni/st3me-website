@@ -1,9 +1,9 @@
 {
   "nav": {
     "viziune": "Viziune",
-    "program": "Program",
     "proiecte": "Proiecte",
     "predici": "Predici",
+    "donatii": "Donații",
     "contact": "Contact"
   },
   "hero": {
@@ -71,6 +71,19 @@
   "sermons": {
     "title": "Predici",
     "subtitle": "Ascultă mesajele noastre pe Spotify."
+  },
+  "donations": {
+    "title": "Donații",
+    "subtitle": "Susține lucrarea bisericii prin contribuția ta. Fiecare donație ajută comunitatea să crească și să servească.",
+    "bankTitle": "Transfer Bancar",
+    "beneficiaryLabel": "Beneficiar",
+    "bankLabel": "Bancă",
+    "ibanLabel": "IBAN",
+    "currencyLabel": "Monedă",
+    "cardTitle": "Donație cu Cardul",
+    "cardSubtitle": "Rapid și sigur, direct din browser.",
+    "cardButton": "Donează acum",
+    "cardNote": "Vei fi redirecționat către o platformă de plată securizată."
   },
   "footer": {
     "tagline": "O comunitate de credincioși din România.",

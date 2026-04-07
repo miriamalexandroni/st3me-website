@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Vision from "@/components/Vision";
 import Projects from "@/components/Projects";
 import Sermons from "@/components/Sermons";
+import Donations from "@/components/Donations";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Vision />
         <Projects />
         <Sermons />
+        <Donations />
       </main>
       <Footer />
     </>
