@@ -26,8 +26,8 @@ export default async function Vision() {
                          transition-all duration-300 text-left"
             >
               {/* Numbered circle */}
-              <div className="w-10 h-10 rounded-full border-2 border-amber-gold inline-flex items-center justify-center mb-4">
-                <span className="font-body text-lg font-semibold text-amber-gold" style={{ lineHeight: 1, paddingTop: "1px" }}>
+              <div className="w-10 h-10 rounded-full bg-amber-gold inline-flex items-center justify-center mb-4">
+                <span className="font-body text-lg font-semibold text-brown" style={{ lineHeight: 1, paddingTop: "1px" }}>
                   {index + 1}
                 </span>
               </div>
