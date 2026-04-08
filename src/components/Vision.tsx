@@ -21,7 +21,7 @@ export default async function Vision() {
           {CORE_VALUE_ICONS.map(({ key }, index) => (
             <div
               key={key}
-              className="bg-cream-warm border border-cream-border rounded-sm p-6
+              className="bg-cream-warm border border-cream-border rounded-2xl p-6
                          hover:border-amber-muted hover:shadow-sm
                          transition-all duration-300 text-left"
             >
